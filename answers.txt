@@ -6,3 +6,8 @@ Answer: Using Git provides robust version control, enabling you to track and man
 Q2: What field could data science be applied to? Give and Example and how it might help
 
 Answer: Data science can be applied to the healthcare field, where it significantly enhances patient care and operational efficiency. For example, by analyzing large datasets of electronic health records, data scientists can identify patterns and predictive factors for diseases such as diabetes or heart disease. This enables early diagnosis and the development of personalized treatment plans tailored to individual patients' needs. Additionally, data science helps in optimizing hospital operations by forecasting patient admissions and managing resources effectively, ultimately leading to improved patient outcomes and reduced healthcare costs.
+
+Q3: What is the difference between merging and rebasing?
+
+Answer: Merging and rebasing are two Git methods for integrating changes from one branch into another. Merging combines the histories of both branches by creating a new merge commit, preserving the complete history and showing how branches diverged and joined. This is straightforward and ideal for collaborative projects but can make the commit history more complex. Rebasing, on the other hand, rewrites the feature branch’s commits onto the main branch, resulting in a linear and cleaner history. While rebasing makes the project history easier to follow, it should be used carefully, especially with shared branches, to avoid complications. Essentially, merging maintains all historical context, whereas rebasing streamlines the commit history.
+
